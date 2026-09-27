@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tocaia-osint"
+version = "0.1.0"
+description = "Reference implementation for T.O.C.A.I.A Behavioral OSINT and Detection by Absence"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Deivison Lourenço"}]
+keywords = ["osint", "threat-intelligence", "behavioral-osint", "intelligence-analysis", "detection-by-absence"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Security",
+]
+
+[project.scripts]
+tocaia-analyze = "tocaia.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
