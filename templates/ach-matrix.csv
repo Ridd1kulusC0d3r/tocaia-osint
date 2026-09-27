@@ -1,0 +1,5 @@
+evidence_id,evidence_description,H1,H2,H3,H4,source_independence_note
+E1,Zero confirmed in channel A,C,C,N,C,Direct observation of A
+E2,Service activity verified on two dates,I,C,N,C,Independent formal record
+E3,Official page links channel B and B is active,N,C,N,I,Verify authenticity of linkage
+E4,Independent review reproduces zero in A,N,N,I,N,Independence depends on separate method and coverage
