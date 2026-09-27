@@ -1,0 +1,14 @@
+{
+  "case_id": "SYNTHETIC-EXAMPLE",
+  "window": "S13",
+  "expected": 34,
+  "observed": 0,
+  "coverage": 1.0,
+  "gap_kind": "behavioral_gap",
+  "source_surface": "synthetic-channel-A",
+  "collection_method": "offline-example",
+  "collected_at_utc": "2026-09-27T00:00:00Z",
+  "provenance_hash": "REPLACE_WITH_SHA256",
+  "mundane_explanations_checked": [],
+  "analyst_note": "Synthetic example only. No inference about identity, intent or cause."
+}
