@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use T.O.C.A.I.A in research, training, or an intelligence-methodology publication, please cite it."
+title: "T.O.C.A.I.A — Intelligence Framework: Behavioral OSINT and Detection by Absence"
+type: software
+authors:
+  - family-names: "Lourenço"
+    given-names: "Deivison"
+repository-code: "https://github.com/Ridd1kulusC0d3r/tocaia-osint"
+url: "https://github.com/Ridd1kulusC0d3r/tocaia-osint"
+version: "0.1.0"
+date-released: "2026-09-27"
+license: MIT
+keywords:
+  - OSINT
+  - threat intelligence
+  - behavioral OSINT
+  - intelligence analysis
+  - detection by absence
