@@ -7,7 +7,8 @@ The roadmap is intentionally research-first. A flashy interface before reproduci
 - publish a synthetic generator with known ground truth;
 - benchmark simple baselines before complex models;
 - report uncertainty, false positives and failure modes;
-- add machine-readable benchmark manifests.
+- add machine-readable benchmark manifests;
+- record feed `coverage` (see `docs/osint-feeds.md`) as the real-data coverage input.
 
 ## v0.3 · Provenance and custody
 

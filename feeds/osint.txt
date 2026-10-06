@@ -1,0 +1,19 @@
+Feeds de OSINT / Threat Intel / Segurança
+##################
+
+https://blog.talosintelligence.com/rss/
+https://cert.br/rss/certbr-rss.xml
+https://citizenlab.ca/feed/
+https://digitalshadows.com/blog-and-research/feed/
+https://googleprojectzero.blogspot.com/feeds/posts/default
+https://isc.sans.edu/rssfeed.xml
+https://krebsonsecurity.com/feed/
+https://osintcurio.us/feed/
+https://securelist.com/feed/
+https://thehackernews.com/feeds/posts/default
+https://www.bellingcat.com/feed/
+https://www.bleepingcomputer.com/feed/
+https://www.cisa.gov/cybersecurity-advisories/all.xml
+https://www.recordedfuture.com/feed
+https://www.sans.org/blog/rss/
+https://www.schneier.com/feed/atom/
