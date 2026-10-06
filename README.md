@@ -4,7 +4,7 @@
 >
 > A research-grade framework for turning *missing expected observations* into auditable intelligence without confusing silence with collection failure.
 
-[Português](README.pt-BR.md) · [Methodology](docs/methodology.md) · [Architecture](docs/architecture.md) · [Research evidence](docs/research-evidence.md) · [Ethics & scope](docs/ethics-and-scope.md)
+[Português](README.pt-BR.md) · [Methodology](docs/methodology.md) · [Architecture](docs/architecture.md) · [Research evidence](docs/research-evidence.md) · [Ethics & scope](docs/ethics-and-scope.md) · [OSINT feeds](docs/osint-feeds.md)
 
 ![status](https://img.shields.io/badge/status-research%20preview-5BF0E0?style=flat-square&labelColor=111111)
 ![OSINT](https://img.shields.io/badge/posture-passive%20OSINT-111111?style=flat-square)
@@ -105,7 +105,9 @@ The current working notes report, among other results, that terminal silence dur
 ├── src/tocaia/                 # minimal public reference implementation
 ├── tests/                      # deterministic unit tests
 ├── examples/synthetic-bx7/     # synthetic demonstration data only
-├── docs/                       # method, architecture, evidence, ethics
+├── docs/                       # method, architecture, evidence, ethics, feeds
+├── feeds/                      # passive OSINT feed lists
+├── tools/                      # feedtool.py (stdlib-only feed collector)
 ├── templates/                  # analyst artifacts for each stage
 ├── research/                   # claim registry and future experiment packages
 ├── materials/                  # publication / training release policy

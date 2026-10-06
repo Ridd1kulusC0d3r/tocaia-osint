@@ -4,7 +4,7 @@
 >
 > Um framework de pesquisa para transformar *observações esperadas que não aconteceram* em inteligência auditável, sem confundir silêncio com falha de coleta.
 
-[English](README.md) · [Metodologia](docs/methodology.md) · [Arquitetura](docs/architecture.md) · [Evidência de pesquisa](docs/research-evidence.md) · [Ética e escopo](docs/ethics-and-scope.md)
+[English](README.md) · [Metodologia](docs/methodology.md) · [Arquitetura](docs/architecture.md) · [Evidência de pesquisa](docs/research-evidence.md) · [Ética e escopo](docs/ethics-and-scope.md) · [Feeds OSINT](docs/osint-feeds.md)
 
 ## O problema
 
