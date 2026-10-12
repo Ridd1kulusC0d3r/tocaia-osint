@@ -23,7 +23,9 @@ flowchart TB
 
 ## Public v0.1
 
-The current public code implements only the first invariant worth making executable: **a zero with poor collection coverage is a `data_gap`, not a behavioral finding**.
+The reference code implements two bounded capabilities: **a zero with poor collection coverage is a `data_gap`, not a behavioral finding**, and scoring supplied binary forecasts against a supplied baseline with explicit unresolved outcomes. `evaluation.py` is pure scoring logic plus a local JSON CLI; it does not fit a model or verify the forecast's provenance or temporal split.
+
+The behavioral profile and forecast contract are human-operated templates. Temporal, linguistic and graph extraction remain planned capabilities, not implemented adapters. See [behavioral capability status](behavioral-framework.pt-BR.md).
 
 That is deliberately narrower than the private working architecture described in project notes. The repository should expand only when each new component arrives with tests, evidence and clear scope.
 

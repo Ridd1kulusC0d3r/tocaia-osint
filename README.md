@@ -1,8 +1,10 @@
-# T.O.C.A.I.A — Intelligence Framework
+![T.O.C.A.I.A — Observar padrões. Testar hipóteses. Antecipar cenários.](assets/brand/tocaia-banner.svg)
 
-> **Behavioral OSINT and Detection by Absence**
+# T.O.C.A.I.A — Behavioral OSINT Framework
+
+> **Behavioral patterns · Investigative reasoning · Conditional forecasting**
 >
-> A research-grade framework for turning *missing expected observations* into auditable intelligence without confusing silence with collection failure.
+> An experimental framework for describing observable digital behavior, testing competing hypotheses and evaluating conditional forecasts. Detection by absence remains a core control.
 
 [Português](README.pt-BR.md) · [Methodology](docs/methodology.md) · [Architecture](docs/architecture.md) · [Research evidence](docs/research-evidence.md) · [Ethics & scope](docs/ethics-and-scope.md) · [OSINT feeds](docs/osint-feeds.md)
 
@@ -11,6 +13,23 @@
 ![Python](https://img.shields.io/badge/python-%E2%89%A53.10-111111?style=flat-square)
 ![data](https://img.shields.io/badge/examples-synthetic%20only-111111?style=flat-square)
 ![docs](https://img.shields.io/badge/docs-CC%20BY%204.0-111111?style=flat-square)
+
+## Behavioral workflow
+
+[Behavioral protocol (PT-BR)](docs/behavioral-framework.pt-BR.md) · [Observation profile](templates/behavioral-profile.pt-BR.md) · [Forecast evaluation](docs/forecasting.pt-BR.md) · [Visual identity](docs/visual-identity.pt-BR.md) · [Annotated references](docs/behavioral-references.md)
+
+**Observe patterns. Test hypotheses. Anticipate scenarios.** Deliver an evidence-linked account of observed digital behavior, with alternatives and limitations. Investigative psychology informs disciplined reasoning and bias control; this is not remote psychological assessment.
+
+| Layer | Available now |
+|---|---|
+| Observe | Executable coverage and absence rule |
+| Describe | Protocol for timing, communication, interaction, sequences and change |
+| Interpret | Observation profile and competing hypotheses, reviewed by a human |
+| Evaluate | Binary forecast scoring CLI with baseline comparison and unresolved cases |
+
+**Experimental:** scoring supplied forecasts is implemented; a validated predictor and automated social-pattern extraction are not.
+
+After installation, run `tocaia-evaluate examples/synthetic-forecast/forecasts.json`. This synthetic arithmetic demonstration does not establish predictive performance.
 
 ## The problem
 
@@ -39,7 +58,7 @@ Treating those as the same thing is how analysts manufacture certainty from brok
 | **A · Assurance** | What would overturn the conclusion, and can another analyst reproduce it? | Adversarial review + revision criteria |
 
 ```mermaid
-flowchart LR
+flowchart TB
   T[Terrain] --> O[Observation]
   O --> C[Correlation]
   C --> A[Absence]

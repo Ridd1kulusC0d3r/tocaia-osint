@@ -23,6 +23,7 @@ classifiers = [
 
 [project.scripts]
 tocaia-analyze = "tocaia.cli:main"
+tocaia-evaluate = "tocaia.evaluation:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
