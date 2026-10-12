@@ -21,6 +21,16 @@ class AbsenceTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             classify_window(window="S01", expected=1, observed=0, coverage=1.5)
 
+    def test_nonfinite_expectation_is_rejected(self):
+        for invalid in (float("nan"), float("inf")):
+            with self.assertRaises(ValueError):
+                classify_window(window="S01", expected=invalid, observed=0, coverage=1)
+
+    def test_noninteger_observations_are_rejected(self):
+        for invalid in (True, 1.5):
+            with self.assertRaises(ValueError):
+                classify_window(window="S01", expected=1, observed=invalid, coverage=1)
+
 
 if __name__ == "__main__":
     unittest.main()

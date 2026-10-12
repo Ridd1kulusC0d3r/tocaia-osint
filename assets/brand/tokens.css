@@ -1,0 +1,14 @@
+:root {
+  --tocaia-background: #0b1112;
+  --tocaia-surface: #13201e;
+  --tocaia-border: #29443e;
+  --tocaia-text: #edf4f2;
+  --tocaia-muted: #acbfba;
+  --tocaia-observation: #58e2c2;
+  --tocaia-hypothesis: #b7b8ff;
+  --tocaia-uncertainty: #f3c677;
+  --tocaia-contradiction: #ff9298;
+  --tocaia-font: Inter, Arial, sans-serif;
+  --tocaia-mono: "IBM Plex Mono", Consolas, monospace;
+  --tocaia-radius: 12px;
+}

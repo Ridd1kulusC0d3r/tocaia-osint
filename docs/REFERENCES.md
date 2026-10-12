@@ -1,5 +1,7 @@
 # Methodological references
 
+See also [behavioral sources and transfer limits](behavioral-references.md), with direct source links and explicit separation between published evidence and project design decisions.
+
 The framework draws on established intelligence-analysis and digital open-source investigation principles. These references are starting points, not an attempt to claim endorsement of T.O.C.A.I.A.
 
 - Heuer, Richards J. *Psychology of Intelligence Analysis*. Center for the Study of Intelligence, 1999.

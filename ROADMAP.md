@@ -1,5 +1,23 @@
 # Roadmap
 
+## Behavioral framework foundation · delivered
+
+- Vector banner, compact mark, color tokens and a visual-identity guide.
+- Behavioral protocol spanning temporal, communicational, relational, sequential, change and absence analysis.
+- Human-reviewed observation-profile and forecast-record templates.
+- Local scoring of supplied binary forecasts, baseline comparison and explicit unresolved cases.
+- Synthetic arithmetic example and validation tests. No empirical predictive-performance claim.
+
+## Next behavioral gates
+
+1. Implement an event/provenance schema and a coverage journal with explicit unknown coverage.
+2. Extract descriptive patterns from synthetic event fixtures with declared time zones, duplicates and platform failures.
+3. Preregister a temporal benchmark comparing base rate, persistence and candidate models; separate development and test entities where relevant.
+4. Evaluate PT-BR annotation agreement and extraction error before adding optional NLP.
+5. Build the workbench only around measured capabilities, with evidence links and unresolved cases visible.
+
+Acceptance requires reproducible fixtures, documented failure modes and independent review before operational claims. The release milestones below remain planned.
+
 The roadmap is intentionally research-first. A flashy interface before reproducible evidence would be the traditional software-industry method of decorating uncertainty.
 
 ## v0.2 · Reproducible absence benchmark

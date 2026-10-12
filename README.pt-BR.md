@@ -1,10 +1,33 @@
-# T.O.C.A.I.A — Intelligence Framework
+![T.O.C.A.I.A — Observar padrões. Testar hipóteses. Antecipar cenários.](assets/brand/tocaia-banner.svg)
 
-> **Behavioral OSINT e Detecção pela Ausência**
+# T.O.C.A.I.A — Behavioral OSINT Framework
+
+> **Padrões comportamentais · Raciocínio investigativo · Previsões condicionais**
 >
-> Um framework de pesquisa para transformar *observações esperadas que não aconteceram* em inteligência auditável, sem confundir silêncio com falha de coleta.
+> Framework experimental para descrever comportamento digital observável, testar hipóteses concorrentes e avaliar previsões condicionais. A detecção pela ausência continua como controle central.
 
 [English](README.md) · [Metodologia](docs/methodology.md) · [Arquitetura](docs/architecture.md) · [Evidência de pesquisa](docs/research-evidence.md) · [Ética e escopo](docs/ethics-and-scope.md) · [Feeds OSINT](docs/osint-feeds.md)
+
+## Comece pelo fluxo comportamental
+
+[Framework em português](docs/behavioral-framework.pt-BR.md) · [Perfil observacional](templates/behavioral-profile.pt-BR.md) · [Previsibilidade](docs/forecasting.pt-BR.md) · [Identidade visual](docs/visual-identity.pt-BR.md) · [Referências comentadas](docs/behavioral-references.md)
+
+**Observar padrões. Testar hipóteses. Antecipar cenários.** O resultado é um perfil de comportamento digital observado, com evidências, alternativas e limitações. A psicologia investigativa orienta o raciocínio e o controle de vieses; a ferramenta não faz diagnóstico psicológico remoto.
+
+| Camada | Entrega atual |
+|---|---|
+| Observar | Regra executável de cobertura e ausência |
+| Descrever | Protocolo para ritmo, comunicação, relações, sequências e mudanças |
+| Interpretar | Perfil observacional e hipóteses concorrentes com revisão humana |
+| Avaliar | CLI de Brier score, referência comparativa e casos não resolvidos |
+
+**Estado: experimental.** O avaliador pontua previsões fornecidas; não existe nesta versão um modelo validado que prevê pessoas ou extrai automaticamente todos esses padrões.
+
+```bash
+tocaia-evaluate examples/synthetic-forecast/forecasts.json
+```
+
+Instale o pacote conforme o teste rápido abaixo antes de executar.
 
 ## O problema
 

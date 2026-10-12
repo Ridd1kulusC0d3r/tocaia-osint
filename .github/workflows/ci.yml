@@ -24,3 +24,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Smoke test synthetic example
         run: tocaia-analyze examples/synthetic-bx7/weekly.csv --jsonl > /tmp/tocaia.jsonl
+      - name: Smoke test synthetic forecast evaluation
+        run: tocaia-evaluate examples/synthetic-forecast/forecasts.json

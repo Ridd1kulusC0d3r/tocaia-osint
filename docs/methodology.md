@@ -1,5 +1,7 @@
 # Methodology
 
+The expanded [behavioral workflow (PT-BR)](behavioral-framework.pt-BR.md) maps these stages to observable social-media patterns, an observation profile and conditional forecasting. Use the [forecast evaluation protocol](forecasting.pt-BR.md) before making predictive claims.
+
 T.O.C.A.I.A is a six-stage analytic workflow for Behavioral OSINT and Detection by Absence. Its central discipline is simple: **do not interpret what is missing until you know what you were capable of observing**.
 
 ## T · Terrain

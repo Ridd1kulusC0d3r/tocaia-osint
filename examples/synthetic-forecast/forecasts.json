@@ -1,0 +1,5 @@
+[
+  {"forecast_id": "SYN-F01", "probability": 0.8, "baseline_probability": 0.5, "outcome": 1},
+  {"forecast_id": "SYN-F02", "probability": 0.2, "baseline_probability": 0.5, "outcome": 0},
+  {"forecast_id": "SYN-F03", "probability": 0.6, "baseline_probability": 0.5, "outcome": null}
+]
