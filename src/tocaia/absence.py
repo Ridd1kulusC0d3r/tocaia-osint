@@ -8,10 +8,11 @@ likely have been observed.
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
-from enum import StrEnum
+from enum import Enum
+from math import isfinite
 
 
-class GapKind(StrEnum):
+class GapKind(str, Enum):
     """Classification of a time window."""
 
     NO_GAP = "no_gap"
@@ -54,14 +55,14 @@ def classify_window(
 
     if not window.strip():
         raise ValueError("window must be non-empty")
-    if expected < 0:
-        raise ValueError("expected must be >= 0")
+    if not isfinite(expected) or expected < 0:
+        raise ValueError("expected must be finite and >= 0")
     if observed < 0:
         raise ValueError("observed must be >= 0")
-    if not 0 <= coverage <= 1:
-        raise ValueError("coverage must be between 0 and 1")
-    if not 0 < min_coverage <= 1:
-        raise ValueError("min_coverage must be between 0 and 1")
+    if not isfinite(coverage) or not 0 <= coverage <= 1:
+        raise ValueError("coverage must be finite and between 0 and 1")
+    if not isfinite(min_coverage) or not 0 < min_coverage <= 1:
+        raise ValueError("min_coverage must be finite and between 0 and 1")
 
     delta = expected - observed
 
