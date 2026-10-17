@@ -24,3 +24,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Smoke test synthetic example
         run: tocaia-analyze examples/synthetic-bx7/weekly.csv --jsonl > /tmp/tocaia.jsonl
+      - name: Benchmark smoke test
+        run: tocaia bench --series 30 --seed 1

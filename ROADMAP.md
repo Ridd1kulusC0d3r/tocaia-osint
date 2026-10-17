@@ -2,7 +2,7 @@
 
 The roadmap is intentionally research-first. A flashy interface before reproducible evidence would be the traditional software-industry method of decorating uncertainty.
 
-## v0.2 · Reproducible absence benchmark
+## v0.2 · Reproducible absence benchmark  *(shipped in 0.2.0: generator, 3 detectors, learned baseline; open: alpha sweep, adversarial episodes)*
 
 - publish a synthetic generator with known ground truth;
 - benchmark simple baselines before complex models;
@@ -10,7 +10,7 @@ The roadmap is intentionally research-first. A flashy interface before reproduci
 - add machine-readable benchmark manifests;
 - record feed `coverage` (see `docs/osint-feeds.md`) as the real-data coverage input.
 
-## v0.3 · Provenance and custody
+## v0.3 · Provenance and custody  *(started: hash-chained journal; open: SHA-256 on ingestion of raw artifacts, Merkle snapshots, tombstones)*
 
 - append-only evidence journal;
 - recomputed SHA-256 on ingestion;

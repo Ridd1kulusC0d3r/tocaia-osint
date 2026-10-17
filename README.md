@@ -4,7 +4,7 @@
 >
 > A research-grade framework for turning *missing expected observations* into auditable intelligence without confusing silence with collection failure.
 
-[Português](README.pt-BR.md) · [Methodology](docs/methodology.md) · [Architecture](docs/architecture.md) · [Research evidence](docs/research-evidence.md) · [Ethics & scope](docs/ethics-and-scope.md) · [OSINT feeds](docs/osint-feeds.md)
+[Português](README.pt-BR.md) · [Methodology](docs/methodology.md) · [Architecture](docs/architecture.md) · [Research evidence](docs/research-evidence.md) · [Ethics & scope](docs/ethics-and-scope.md) · [Detection v0.2](docs/detection-v2.md) · [OSINT feeds](docs/osint-feeds.md)
 
 ![status](https://img.shields.io/badge/status-research%20preview-5BF0E0?style=flat-square&labelColor=111111)
 ![OSINT](https://img.shields.io/badge/posture-passive%20OSINT-111111?style=flat-square)
@@ -82,6 +82,17 @@ S13  behavioral_gap  coverage=1.00  expected=34  observed=0
 S14  behavioral_gap  coverage=1.00  expected=34  observed=0
 ...
 ```
+
+### v0.2: learn the normal, prove detectability
+
+```bash
+tocaia bench --mu 12                                          # detectors vs known ground truth
+tocaia watch poll feeds/osint.txt --journal evidence.jsonl    # hash-chained passive collection
+tocaia watch report --journal evidence.jsonl                  # source silence vs collector failure
+tocaia journal evidence.jsonl                                 # verify custody
+```
+
+A window is now `data_gap`, `undetectable`, `behavioral_gap`, `deficit` or `no_gap`; the expectation is learned, not declared. See [Detection v0.2](docs/detection-v2.md).
 
 The `BX-7` dataset is **synthetic** and exists only to demonstrate the method.
 

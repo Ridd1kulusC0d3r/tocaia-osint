@@ -17,6 +17,8 @@ class GapKind(StrEnum):
     NO_GAP = "no_gap"
     DATA_GAP = "data_gap"
     BEHAVIORAL_GAP = "behavioral_gap"
+    DEFICIT = "deficit"  # observed > 0 but significantly below the learned baseline
+    UNDETECTABLE = "undetectable"  # no outcome could be significantly low: absence is unknowable here
 
 
 @dataclass(frozen=True, slots=True)

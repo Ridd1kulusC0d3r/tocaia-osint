@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tocaia-osint"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reference implementation for T.O.C.A.I.A Behavioral OSINT and Detection by Absence"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -23,6 +23,7 @@ classifiers = [
 
 [project.scripts]
 tocaia-analyze = "tocaia.cli:main"
+tocaia = "tocaia.app:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

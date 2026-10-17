@@ -11,6 +11,8 @@ This file is the project's public memory against accidental hype.
 | C-005 | EIG÷cost can reduce collection volume without large information loss | synthetic-only | pending | preregister replication |
 | C-006 | Automation triage can distinguish naive scheduled behavior | limited | pending | adversarial bot benchmark |
 | C-007 | Portuguese NLP extraction quality is acceptable for operational use | unmeasured | none | build labeled PT-BR evaluation set |
+| C-008 | Learned baseline + detectability gate cuts false behavioral gaps vs static rules at the cost of recall, and abstains when volume is too low | synthetic-only | `tocaia bench` (seeded), `docs/detection-v2.md` | add real-data replication, sweep alpha and episode types |
+| C-009 | Hash-chained journal makes edits, deletions and reordering of collected evidence detectable | methodological invariant | `src/tocaia/journal.py` + `tests/test_v2.py` | external anchoring of head hash |
 
 ## Status vocabulary
 

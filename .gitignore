@@ -10,3 +10,6 @@ dist/
 *.sqlite3
 *.db
 artifacts/private/
+
+# real collection journals stay local; publish only synthetic or anonymized data
+evidence*.jsonl
