@@ -9,6 +9,8 @@ v0.1 enforced one invariant: a zero under poor coverage is a `data_gap`. v0.2 re
 
 ## Window classes
 
+<p align="center"><img src="../assets/gap-classes.svg" alt="The five window classes" width="100%"></p>
+
 | Kind | Meaning |
 |---|---|
 | `data_gap` | coverage below threshold: we could not see |

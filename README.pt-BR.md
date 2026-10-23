@@ -1,10 +1,10 @@
-# T.O.C.A.I.A — Intelligence Framework
+<p align="center"><img src="assets/banner.svg" alt="T.O.C.A.I.A, Behavioral OSINT and Detection by Absence" width="100%"></p>
 
-> **Behavioral OSINT e Detecção pela Ausência**
->
-> Um framework de pesquisa para transformar *observações esperadas que não aconteceram* em inteligência auditável, sem confundir silêncio com falha de coleta.
+<p align="center"><strong>Behavioral OSINT and Detection by Absence</strong><br>Um framework de pesquisa para transformar <em>observações esperadas que não aconteceram</em> em inteligência auditável, sem confundir silêncio com falha de coleta.</p>
 
-[English](README.md) · [Metodologia](docs/methodology.md) · [Arquitetura](docs/architecture.md) · [Evidência de pesquisa](docs/research-evidence.md) · [Ética e escopo](docs/ethics-and-scope.md) · [Feeds OSINT](docs/osint-feeds.md)
+<p align="center"><a href="README.md">English</a> · <a href="docs/methodology.md">Metodologia</a> · <a href="docs/architecture.md">Arquitetura</a> · <a href="docs/detection-v2.md">Detecção v0.2</a> · <a href="docs/research-evidence.md">Evidência</a> · <a href="docs/osint-feeds.md">Feeds OSINT</a> · <a href="docs/ethics-and-scope.md">Ética</a></p>
+
+<p align="center"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/Ridd1kulusC0d3r/tocaia-osint/ci.yml?style=flat-square&labelColor=0a0f11&label=CI"> <img alt="status" src="https://img.shields.io/badge/status-research%20preview-4fe3c1?style=flat-square&labelColor=0a0f11"> <img alt="version" src="https://img.shields.io/badge/version-0.2.0-4fe3c1?style=flat-square&labelColor=0a0f11"> <img alt="python" src="https://img.shields.io/badge/python-%E2%89%A53.10-3a4654?style=flat-square&labelColor=0a0f11"> <img alt="posture" src="https://img.shields.io/badge/posture-passive%20OSINT-3a4654?style=flat-square&labelColor=0a0f11"> <img alt="examples" src="https://img.shields.io/badge/examples-synthetic%20only-3a4654?style=flat-square&labelColor=0a0f11"> <img alt="code" src="https://img.shields.io/badge/code-MIT-3a4654?style=flat-square&labelColor=0a0f11"> <img alt="docs" src="https://img.shields.io/badge/docs-CC%20BY%204.0-3a4654?style=flat-square&labelColor=0a0f11"></p>
 
 ## O problema
 

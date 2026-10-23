@@ -1,16 +1,10 @@
-# T.O.C.A.I.A — Intelligence Framework
+<p align="center"><img src="assets/banner.svg" alt="T.O.C.A.I.A, Behavioral OSINT and Detection by Absence" width="100%"></p>
 
-> **Behavioral OSINT and Detection by Absence**
->
-> A research-grade framework for turning *missing expected observations* into auditable intelligence without confusing silence with collection failure.
+<p align="center"><strong>Behavioral OSINT and Detection by Absence</strong><br>A research-grade framework for turning <em>missing expected observations</em> into auditable intelligence, without confusing silence with collection failure.</p>
 
-[Português](README.pt-BR.md) · [Methodology](docs/methodology.md) · [Architecture](docs/architecture.md) · [Research evidence](docs/research-evidence.md) · [Ethics & scope](docs/ethics-and-scope.md) · [Detection v0.2](docs/detection-v2.md) · [OSINT feeds](docs/osint-feeds.md)
+<p align="center"><a href="README.pt-BR.md">Português</a> · <a href="docs/methodology.md">Methodology</a> · <a href="docs/architecture.md">Architecture</a> · <a href="docs/detection-v2.md">Detection v0.2</a> · <a href="docs/research-evidence.md">Evidence</a> · <a href="docs/osint-feeds.md">OSINT feeds</a> · <a href="docs/ethics-and-scope.md">Ethics</a></p>
 
-![status](https://img.shields.io/badge/status-research%20preview-5BF0E0?style=flat-square&labelColor=111111)
-![OSINT](https://img.shields.io/badge/posture-passive%20OSINT-111111?style=flat-square)
-![Python](https://img.shields.io/badge/python-%E2%89%A53.10-111111?style=flat-square)
-![data](https://img.shields.io/badge/examples-synthetic%20only-111111?style=flat-square)
-![docs](https://img.shields.io/badge/docs-CC%20BY%204.0-111111?style=flat-square)
+<p align="center"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/Ridd1kulusC0d3r/tocaia-osint/ci.yml?style=flat-square&labelColor=0a0f11&label=CI"> <img alt="status" src="https://img.shields.io/badge/status-research%20preview-4fe3c1?style=flat-square&labelColor=0a0f11"> <img alt="version" src="https://img.shields.io/badge/version-0.2.0-4fe3c1?style=flat-square&labelColor=0a0f11"> <img alt="python" src="https://img.shields.io/badge/python-%E2%89%A53.10-3a4654?style=flat-square&labelColor=0a0f11"> <img alt="posture" src="https://img.shields.io/badge/posture-passive%20OSINT-3a4654?style=flat-square&labelColor=0a0f11"> <img alt="examples" src="https://img.shields.io/badge/examples-synthetic%20only-3a4654?style=flat-square&labelColor=0a0f11"> <img alt="code" src="https://img.shields.io/badge/code-MIT-3a4654?style=flat-square&labelColor=0a0f11"> <img alt="docs" src="https://img.shields.io/badge/docs-CC%20BY%204.0-3a4654?style=flat-square&labelColor=0a0f11"></p>
 
 ## The problem
 
@@ -38,19 +32,7 @@ Treating those as the same thing is how analysts manufacture certainty from brok
 | **I · Inference** | Which competing explanations best survive the evidence? | ACH / hypothesis matrix + confidence |
 | **A · Assurance** | What would overturn the conclusion, and can another analyst reproduce it? | Adversarial review + revision criteria |
 
-```mermaid
-flowchart LR
-  T[Terrain] --> O[Observation]
-  O --> C[Correlation]
-  C --> A[Absence]
-  A --> I[Inference]
-  I --> R[Assurance]
-  P[(Provenance / custody)] --- O
-  P --- C
-  P --- A
-  P --- I
-  R --> D[Decision support]
-```
+<p align="center"><img src="assets/pipeline.svg" alt="The six T.O.C.A.I.A stages over a provenance and custody layer" width="100%"></p>
 
 ## What makes this different
 
